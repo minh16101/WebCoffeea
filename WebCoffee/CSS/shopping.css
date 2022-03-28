@@ -1,0 +1,114 @@
+.cart{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 90px;
+}
+.cart-header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.cart-body{
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.cart-body-left{
+    width: 50%;
+    height: 100%;
+    overflow: scroll;
+}
+.cart-body-left table{
+    position: relative;
+    top: 0;
+    left: 0;
+    border-right: 3px solid lightpink;
+}
+th, td{
+    text-align: center;
+    width: calc(100% / 6);
+    border-bottom: 1px solid pink;
+}
+th{
+    height: 10px;
+}
+td{
+    height: 50px;
+}
+td div img{
+    width: 100px;
+    height: 100%;
+    object-fit: fill;
+}
+td div p{
+    font-size: 15px;
+}
+.inputTd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputId input{
+    width: 20%;
+    margin: 5px;
+}
+td div button{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.cart-body-right{
+    width: 50%;
+    height: 100%;
+}
+.cart-body-right-header{
+    width: 100%;
+    height: 30px;
+}
+.cart-body-right-header p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.cart-body-right-body{
+    width: 100%;
+    height: 35%;
+    margin-top: 10px;
+}
+.cart-body-right-body table th{
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+}
+.cart-body-right-body table td{
+    text-align: left;
+    padding-left: 20px;
+}
+.cart-body-right-footer{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-body-right-footer button{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    margin: 0 80px;
+    background-color: white;
+    cursor: pointer;
+}
+.cart-body-right-footer button:hover{
+    background-color: cornflowerblue;
+}
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Trang chủ</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href='homecf.css' rel='stylesheet'>
+    <link href='shipping.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="logo">
+            <img src="logocafe.jpg"/>
+        </div>
+        <div class="menu">
+            <ul class="menu-parent">
+                <li class="menu-item">
+                    <a>Coffee</a>
+                    <div class="menu-child">
+                        <ul class="menu-child-list">
+                            <li><a href="">Capuchino</a></li>
+                            <li><a href="">Capuchino</a></li>
+                            <li><a href="">Capuchino</a></li>
+                            <li><a href="">Capuchino</a></li>
+                            <li><a href="">Capuchino</a></li>
+                        </ul>
+                    </div>                 
+                </li>
+                <li class="menu-item">
+                    <a>Juice</a>
+                    <div class="menu-child">
+                        <ul class="menu-child-list">
+                            <li><a href="">Nước cam</a></li>
+                            <li><a href="">Nước chanh</a></li>
+                            <li><a href="">Sữa chua đánh đá</a></li>
+                            <li><a href="">Nước ép</a></li>
+                        </ul>
+                    </div>                 
+                </li>
+                <li class="menu-item">
+                    <a>Cake</a>
+                    <div class="menu-child">
+                        <ul class="menu-child-list">
+                            <li><a href="">Bánh ngọt</a></li>
+                            <li><a href="">Bánh cupcake</a></li>
+                            <li><a href="">Bánh Tiramisu</a></li>
+                            <li><a href="">Bánh quế</a></li>
+                        </ul>
+                    </div>                 
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="delivery">
+        <div class="delivery-header">Thông tin giao hàng của bạn</div>
+        <div class="delivery-body">
+            <div class="delivery-body-left">
+                <div class="delivery-body-left-header">
+                    <p>Địa chỉ giao hàng</p>
+                    <div class="delivery-body-left-login">
+                        <a href="#">
+                            <i class='bx bxs-log-in-circle'></i>
+                            <p>Đăng nhập(Nếu bạn đã có tài khoản)</p>
+                        </a>
+                    </div>
+                    <div class="delivery-body-left-noAcount">
+                        <input type="radio" name="loaikhach"/>
+                        <p>Khách lẻ(Nếu bạn không muốn lưu lại thông tin)</p>
+                    </div>
+                </div>
+                <div class="delivery-body-left-body">
+                    <div class="delivery-item">
+                        <label>Họ tên<span>*</span></label>
+                        <input type="text"/>
+                    </div>
+                    <div class="delivery-item">
+                        <label>Điện thoại<span>*</span></label>
+                        <input type="text"/>
+                    </div>
+                    <div class="delivery-item">
+                        <label>Tỉnh/Thành phố<span>*</span></label>
+                        <input type="text"/>
+                    </div>
+                    <div class="delivery-item">
+                        <label>Quận/Huyện<span>*</span></label>
+                        <input type="text"/>
+                    </div>
+                    <div class="delivery-item">
+                        <label>Phường xã<span>*</span></label>
+                        <input type="text"/>
+                    </div>
+                    <div class="delivery-item">
+                        <label>Địa chỉ<span>*</span></label>
+                        <input type="text"/>
+                    </div>              
+                </div>
+            </div>
+            <div class="delivery-body-right">
+                <div class="delivery-body-right-bill">
+                    <div class="delivery-table">
+                        <table>
+                            <tr>
+                                <th>Tên sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                            <tr>
+                                <td>Matcha da xay</td>
+                                <td>5</td>
+                                <td class="delivery-table-cost">100000<sup>d</sup></td>
+                            </tr><tr>
+                                <td>Matcha da xay</td>
+                                <td>5</td>
+                                <td class="delivery-table-cost">100000<sup>d</sup></td>
+                            </tr><tr>
+                                <td>Matcha da xay</td>
+                                <td>5</td>
+                                <td class="delivery-table-cost">100000<sup>d</sup></td>
+                            </tr><tr>
+                                <td>Matcha da xay</td>
+                                <td>5</td>
+                                <td class="delivery-table-cost">100000<sup>d</sup></td>
+                            </tr><tr>
+                                <td>Matcha da xay</td>
+                                <td>5</td>
+                                <td class="delivery-table-cost">100000<sup>d</sup></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="delivery-bill">
+                        <div class="delivery-bill-price">
+                            <p>Tổng tiền hàng</p>
+                            <h1></h1>
+                        </div>
+                        <div class="delivery-bill-ship">
+                            <p>Tổng tiền ship</p>
+                            <h1>30000<sup>d</sup></h1>
+                        </div>
+                        <div class="delivery-bill-all">
+                            <p>Tổng</p>
+                            <h1></h1>
+                        </div> 
+                    </div>
+                </div>
+                <div class="delivery-body-right-button">
+                    <button>Thanh toan</button>
+                    <button>Huy</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--script-->
+    <script src="homecf.js"></script>
+    <script src="shipping.js"></script>
+
+</body>
+</html>
